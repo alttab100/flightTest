@@ -26,7 +26,7 @@ public class BookTicket extends TestBaseSetup {
 	ElementActions action = new ElementActions(driver);
 		
 	  @BeforeClass
-	  public void setUp() throws Exception {
+	  public void setUp() throws  Exception {
 		  ExcelUtils.setExcelFile(Constants.TESTDATA_PATH+Constants.TESTDATA_FILENAME, Constants.TESTDATA_SHEETNAME);
 		  driver = getDriver();
 	  }
