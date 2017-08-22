@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19733" started-at="2017-08-21T07:59:39Z" finished-at="2017-08-21T07:59:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19733" started-at="2017-08-21T07:59:39Z" finished-at="2017-08-21T07:59:59Z">
+      <class name="testCases.BookTicket">
+        <test-method status="PASS" signature="initializeTestBaseSetup()[pri:0, instance:testCases.BookTicket@604ed9f0]" name="initializeTestBaseSetup" is-config="true" duration-ms="6798" started-at="2017-08-21T13:29:39Z" finished-at="2017-08-21T13:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.BookTicket@604ed9f0]" name="setUp" is-config="true" duration-ms="457" started-at="2017-08-21T13:29:46Z" finished-at="2017-08-21T13:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInHomePage()[pri:0, instance:testCases.BookTicket@604ed9f0]" name="signInHomePage" duration-ms="5396" started-at="2017-08-21T13:29:46Z" finished-at="2017-08-21T13:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInHomePage -->
+        <test-method status="PASS" signature="fillFlightFinderPage()[pri:1, instance:testCases.BookTicket@604ed9f0]" name="fillFlightFinderPage" duration-ms="2249" started-at="2017-08-21T13:29:52Z" finished-at="2017-08-21T13:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFlightFinderPage -->
+        <test-method status="PASS" signature="selectFlight()[pri:2, instance:testCases.BookTicket@604ed9f0]" name="selectFlight" duration-ms="2939" started-at="2017-08-21T13:29:54Z" finished-at="2017-08-21T13:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlight -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:3, instance:testCases.BookTicket@604ed9f0]" name="takeScreenshot" duration-ms="194" started-at="2017-08-21T13:29:57Z" finished-at="2017-08-21T13:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.BookTicket@604ed9f0]" name="quitDriver" is-config="true" duration-ms="1678" started-at="2017-08-21T13:29:57Z" finished-at="2017-08-21T13:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testCases.BookTicket -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
